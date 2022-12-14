@@ -2,7 +2,6 @@
 dotnet_deps:
   - libunwind
   - lttng-ust
-  - libcurl
   - openssl-libs
   - libuuid
   - krb5-libs
