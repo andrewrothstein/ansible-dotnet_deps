@@ -3,7 +3,7 @@ dotnet_deps:
   - libunwind
   - lttng-ust
   - curl
-  - openssl-1.0
+  - openssl-1.1
   - krb5
   - zlib
   - icu
