@@ -1,5 +1,11 @@
 ---
 - include_role:
+    name: andrewrothstein.openssl
+  vars:
+    openssl_include_dev_pkgs: true
+- include_role:
+    name: andrewrothstein.curl
+- include_role:
     name: andrewrothstein.epel
 - name: resolve platform specific vars
   include_vars: '{{ item }}'

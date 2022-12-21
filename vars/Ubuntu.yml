@@ -9,11 +9,6 @@ dotnet_libcurl:
   bionic: '4'
   focal: '4'
   jammy: '4'
-dotnet_libssl:
-  xenial: '1.0.0'
-  bionic: '1.1'
-  focal: '1.1'
-  jammy: '3'
 dotnet_libttng_ust:
   xenial: '0'
   bionic: '0'
@@ -23,7 +18,6 @@ dotnet_deps:
   - libunwind8
   - liblttng-ust{{ dotnet_libttng_ust[ansible_distribution_release] }}
   - libcurl{{ dotnet_libcurl[ansible_distribution_release] }}
-  - libssl{{ dotnet_libssl[ansible_distribution_release] }}
   - libuuid1
   - libkrb5support0
   - zlib1g
