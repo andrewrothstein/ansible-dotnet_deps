@@ -1,7 +1,7 @@
 ---
 - name: andrewrothstein.epel
-  version: v1.1.10
+  version: v1.1.11
 - name: andrewrothstein.openssl
-  version: v1.2.0
+  version: v1.2.1
 - name: andrewrothstein.curl
-  version: v1.1.0
+  version: v1.1.1

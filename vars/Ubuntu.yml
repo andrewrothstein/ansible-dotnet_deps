@@ -4,16 +4,19 @@ dotnet_libicu:
   bionic: '60'
   focal: '66'
   jammy: '70'
+  noble: '74'
 dotnet_libcurl:
   xenial: '3'
   bionic: '4'
   focal: '4'
   jammy: '4'
+  noble: '4'
 dotnet_libttng_ust:
   xenial: '0'
   bionic: '0'
   focal: '0'
   jammy: '1'
+  noble: '-dev'
 dotnet_deps:
   - libunwind8
   - liblttng-ust{{ dotnet_libttng_ust[ansible_distribution_release] }}
